@@ -1,2 +1,6 @@
 server:
   port: 60001
+
+
+jwt:
+  secret: secretKey123

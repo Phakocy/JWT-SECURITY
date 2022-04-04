@@ -54,6 +54,7 @@ public class JwtUtility implements Serializable {
         Map<String, Object> claims = new HashMap<>();
         return doGenerateToken(claims, userDetails.getUsername());
     }
+
     /* While Creating the Token
      * 1. Define claims of token, like Issuer, Expiration, Subject, and the ID
      * 2. Sign the JWT using HS512 algorithm and secret key
