@@ -29,6 +29,7 @@ public class UserController {
 
     @GetMapping("/")
     public String home(){
+
         return "Welcome to Royal Castle";
     }
 
